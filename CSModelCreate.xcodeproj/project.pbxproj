@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A30ABA1B1E80DF080025F106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA1A1E80DF080025F106 /* AppDelegate.m */; };
 		A30ABA1E1E80DF080025F106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA1D1E80DF080025F106 /* main.m */; };
-		A30ABA211E80DF080025F106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA201E80DF080025F106 /* ViewController.m */; };
 		A30ABA231E80DF080025F106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30ABA221E80DF080025F106 /* Assets.xcassets */; };
-		A30ABA261E80DF080025F106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30ABA241E80DF080025F106 /* Main.storyboard */; };
 		A30ABA311E80DF080025F106 /* CSModelCreateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA301E80DF080025F106 /* CSModelCreateTests.m */; };
 		A30ABA3C1E80DF090025F106 /* CSModelCreateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA3B1E80DF090025F106 /* CSModelCreateUITests.m */; };
+		A30ABA4B1E80DF330025F106 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30ABA4A1E80DF330025F106 /* Cocoa.framework */; };
+		A30ABA4D1E80E01D0025F106 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30ABA4C1E80E01D0025F106 /* MainMenu.xib */; };
+		A30ABA501E80E2840025F106 /* results in Resources */ = {isa = PBXBuildFile; fileRef = A30ABA4F1E80E2840025F106 /* results */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +39,7 @@
 		A30ABA191E80DF080025F106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A30ABA1A1E80DF080025F106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A30ABA1D1E80DF080025F106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A30ABA1F1E80DF080025F106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A30ABA201E80DF080025F106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A30ABA221E80DF080025F106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A30ABA251E80DF080025F106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30ABA271E80DF080025F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30ABA2C1E80DF080025F106 /* CSModelCreateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSModelCreateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30ABA301E80DF080025F106 /* CSModelCreateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSModelCreateTests.m; sourceTree = "<group>"; };
@@ -49,6 +47,10 @@
 		A30ABA371E80DF090025F106 /* CSModelCreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSModelCreateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30ABA3B1E80DF090025F106 /* CSModelCreateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSModelCreateUITests.m; sourceTree = "<group>"; };
 		A30ABA3D1E80DF090025F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30ABA4A1E80DF330025F106 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A30ABA4C1E80E01D0025F106 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		A30ABA4E1E80E1800025F106 /* CSModelCreate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSModelCreate-Prefix.pch"; sourceTree = "<group>"; };
+		A30ABA4F1E80E2840025F106 /* results */ = {isa = PBXFileReference; lastKnownFileType = folder; path = results; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30ABA4B1E80DF330025F106 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +82,12 @@
 		A30ABA0D1E80DF080025F106 = {
 			isa = PBXGroup;
 			children = (
+				A30ABA4F1E80E2840025F106 /* results */,
 				A30ABA181E80DF080025F106 /* CSModelCreate */,
 				A30ABA2F1E80DF080025F106 /* CSModelCreateTests */,
 				A30ABA3A1E80DF090025F106 /* CSModelCreateUITests */,
 				A30ABA171E80DF080025F106 /* Products */,
+				A30ABA491E80DF330025F106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +106,8 @@
 			children = (
 				A30ABA191E80DF080025F106 /* AppDelegate.h */,
 				A30ABA1A1E80DF080025F106 /* AppDelegate.m */,
-				A30ABA1F1E80DF080025F106 /* ViewController.h */,
-				A30ABA201E80DF080025F106 /* ViewController.m */,
+				A30ABA4C1E80E01D0025F106 /* MainMenu.xib */,
 				A30ABA221E80DF080025F106 /* Assets.xcassets */,
-				A30ABA241E80DF080025F106 /* Main.storyboard */,
 				A30ABA271E80DF080025F106 /* Info.plist */,
 				A30ABA1C1E80DF080025F106 /* Supporting Files */,
 			);
@@ -114,6 +117,7 @@
 		A30ABA1C1E80DF080025F106 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A30ABA4E1E80E1800025F106 /* CSModelCreate-Prefix.pch */,
 				A30ABA1D1E80DF080025F106 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +139,14 @@
 				A30ABA3D1E80DF090025F106 /* Info.plist */,
 			);
 			path = CSModelCreateUITests;
+			sourceTree = "<group>";
+		};
+		A30ABA491E80DF330025F106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30ABA4A1E80DF330025F106 /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30ABA501E80E2840025F106 /* results in Resources */,
 				A30ABA231E80DF080025F106 /* Assets.xcassets in Resources */,
-				A30ABA261E80DF080025F106 /* Main.storyboard in Resources */,
+				A30ABA4D1E80E01D0025F106 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30ABA211E80DF080025F106 /* ViewController.m in Sources */,
 				A30ABA1E1E80DF080025F106 /* main.m in Sources */,
 				A30ABA1B1E80DF080025F106 /* AppDelegate.m in Sources */,
 			);
@@ -308,17 +320,6 @@
 			targetProxy = A30ABA381E80DF090025F106 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A30ABA241E80DF080025F106 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A30ABA251E80DF080025F106 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A30ABA3E1E80DF090025F106 /* Debug */ = {
@@ -361,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -402,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -416,6 +417,7 @@
 				DEVELOPMENT_TEAM = 6UZ776X4GF;
 				INFOPLIST_FILE = CSModelCreate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciwong.CSModelCreate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -429,6 +431,7 @@
 				DEVELOPMENT_TEAM = 6UZ776X4GF;
 				INFOPLIST_FILE = CSModelCreate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciwong.CSModelCreate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

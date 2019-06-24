@@ -11,5 +11,11 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 
+@property (assign) IBOutlet NSWindow *window;
+- (IBAction)generate:(id)sender;
+@property (weak) IBOutlet NSTextField *modelNameField;
+@property (unsafe_unretained) IBOutlet NSTextView *textView;
+@property (weak) IBOutlet NSTextField *prefixField;
+
 @end
 
