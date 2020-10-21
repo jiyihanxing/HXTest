@@ -18,7 +18,7 @@ NSString *const kBaseModelName = @"XMBaseModel";
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    NSLog(@"test");
+    //NSLog(@"test");
 }
 - (IBAction)generate:(id)sender {
     NSFileManager *fileManager =  [NSFileManager defaultManager];
