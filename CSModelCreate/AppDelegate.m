@@ -16,7 +16,7 @@ NSString *const kBaseModelName = @"XMBaseModel";
 @end
 
 @implementation AppDelegate
-
+//程序启动
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     //NSLog(@"test");
 }
