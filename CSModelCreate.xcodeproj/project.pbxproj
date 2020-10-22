@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711E311125412AAB0073AB3E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 711E311025412AAB0073AB3E /* Test.m */; };
 		A30ABA1B1E80DF080025F106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA1A1E80DF080025F106 /* AppDelegate.m */; };
 		A30ABA1E1E80DF080025F106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A30ABA1D1E80DF080025F106 /* main.m */; };
 		A30ABA231E80DF080025F106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30ABA221E80DF080025F106 /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711E310F25412AAB0073AB3E /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		711E311025412AAB0073AB3E /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		A30ABA161E80DF080025F106 /* CSModelCreate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSModelCreate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30ABA191E80DF080025F106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A30ABA1A1E80DF080025F106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 			children = (
 				A30ABA191E80DF080025F106 /* AppDelegate.h */,
 				A30ABA1A1E80DF080025F106 /* AppDelegate.m */,
+				711E310F25412AAB0073AB3E /* Test.h */,
+				711E311025412AAB0073AB3E /* Test.m */,
 				A30ABA4C1E80E01D0025F106 /* MainMenu.xib */,
 				A30ABA221E80DF080025F106 /* Assets.xcassets */,
 				A30ABA271E80DF080025F106 /* Info.plist */,
@@ -238,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711E311125412AAB0073AB3E /* Test.m in Sources */,
 				A30ABA1E1E80DF080025F106 /* main.m in Sources */,
 				A30ABA1B1E80DF080025F106 /* AppDelegate.m in Sources */,
 			);
@@ -510,6 +517,7 @@
 				A30ABA421E80DF090025F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30ABA431E80DF090025F106 /* Build configuration list for PBXNativeTarget "CSModelCreateTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				A30ABA451E80DF090025F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A30ABA461E80DF090025F106 /* Build configuration list for PBXNativeTarget "CSModelCreateUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				A30ABA481E80DF090025F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
