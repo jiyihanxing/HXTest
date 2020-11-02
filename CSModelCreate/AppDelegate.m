@@ -18,11 +18,8 @@ NSString *const kBaseModelName = @"XMBaseModel";
 @implementation AppDelegate
 //程序启动
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    //测试-develop1-1
-    //测试develop-0
 }
 - (IBAction)generate:(id)sender {
-    //测试develop-2
     NSFileManager *fileManager =  [NSFileManager defaultManager];
     NSString *folder = NSHomeDirectory();
     NSString * resultFolder = [folder stringByAppendingFormat:@"/Desktop/CSModelCreate/results/"];
