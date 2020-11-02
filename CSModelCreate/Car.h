@@ -12,7 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //develop-4
 @interface Car : NSObject
-
+//develop-5
+@property (nonatomic, copy) NSString *brand;
+@property (nonatomic, copy) NSString *price;
 @end
 
 NS_ASSUME_NONNULL_END
