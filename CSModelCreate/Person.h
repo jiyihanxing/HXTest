@@ -12,7 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //develop1-2
 @interface Person : NSObject
-
+//develop1-3
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSInteger  age;
 @end
 
 NS_ASSUME_NONNULL_END
